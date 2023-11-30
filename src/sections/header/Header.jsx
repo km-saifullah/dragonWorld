@@ -19,7 +19,9 @@ const Header = () => {
             </div>
             <div className="mail">
               <CiMail className="mail_icon" />
-              <p>info@webmail.com</p>
+              <a href="mailto:info@webmail.com">
+                <p>info@webmail.com</p>
+              </a>
             </div>
           </div>
           <div className="social_icon">

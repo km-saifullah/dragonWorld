@@ -1,0 +1,64 @@
+/* ===== Navbar Design Start ====== */
+.navbar {
+  padding: 35px 0 85px 0;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.logo_img {
+  height: 26px;
+  width: 26px;
+}
+.logo_text {
+  color: #071c1f;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  font-family: "Open Sans", sans-serif;
+}
+.logo_name {
+  color: #e71578;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  column-gap: 28px;
+}
+.menu ul li a {
+  color: #071c1f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  transition: color linear 0.3s;
+}
+.active {
+  color: #e71578 !important;
+}
+.menu ul li a:hover {
+  color: #e71578;
+}
+.nav_icons {
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+}
+.navbar_icon {
+  color: #071c1f;
+  height: 25px;
+  width: 25px;
+  transition: color linear 0.3s;
+}
+.navbar_icon:hover {
+  color: #e71578;
+  cursor: pointer;
+}
+/* ===== Navbar Design End ====== */
