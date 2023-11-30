@@ -1,0 +1,31 @@
+/* ===== Banner Design Start ===== */
+.banner {
+  padding-bottom: 75px;
+}
+.banner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner_icon {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.banner_subtitle {
+  color: #071c1f;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+  font-family: "Rajdhani", sans-serif;
+}
+.main_heading {
+  width: 546px;
+  color: #071c1f;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 135%;
+  font-family: "Rajdhani", sans-serif;
+  padding-bottom: 15px;
+}
+/* ===== Banner Design End ===== */

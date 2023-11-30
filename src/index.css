@@ -27,4 +27,21 @@ p {
   width: 1320px;
   margin: 0 auto;
 }
+.common_btn {
+  background-color: #881a51;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+  padding: 15px 20px;
+  border: 1px solid #881a51;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.common_btn:hover {
+  color: #881a51;
+  background-color: #fff;
+}
 /* ===== Common Design End ===== */
