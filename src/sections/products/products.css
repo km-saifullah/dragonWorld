@@ -17,5 +17,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 56px 80px;
+  padding-bottom: 38px;
+}
+.products_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* ===== Products Design End ===== */

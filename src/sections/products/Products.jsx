@@ -1,6 +1,7 @@
 import React from "react";
 import productData from "../../data/products";
 import Product from "../../components/products/Product";
+import CommonBtn from "../../components/commonBtn/CommonBtn";
 import "./products.css";
 
 const Products = () => {
@@ -20,6 +21,9 @@ const Products = () => {
               price={product.price}
             />
           ))}
+        </div>
+        <div className="products_btn">
+          <CommonBtn title="Show More Products" />
         </div>
       </div>
     </div>

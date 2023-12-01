@@ -1,4 +1,5 @@
 import React from "react";
+import CommonBtn from "../../components/commonBtn/CommonBtn";
 import "./banner.css";
 
 const Banner = () => {
@@ -12,7 +13,7 @@ const Banner = () => {
               <p className="banner_subtitle">100% genuine Products</p>
             </div>
             <h1 className="main_heading">Tasty and Healthy Organic Food</h1>
-            <button className="common_btn">Explore Products</button>
+            <CommonBtn title="Explore Products" />
           </div>
           <div className="banner_img">
             <img src="banner.svg" alt="" />
