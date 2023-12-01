@@ -4,6 +4,7 @@ import Navbar from "./sections/navbar/Navbar";
 import Offers from "./sections/offers/Offers";
 import Products from "./sections/products/Products";
 import Feedbacks from "./sections/feedbacks/Feedbacks";
+import Video from "./sections/video/Video";
 import "./index.css";
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <Banner />
       <Offers />
       <Products />
-      {/* <Feedbacks /> */}
+      <Feedbacks />
+      <Video />
     </div>
   );
 };

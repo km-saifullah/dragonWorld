@@ -1,0 +1,43 @@
+/* ===== Feedback Design Start ===== */
+.feedback {
+  display: flex;
+  column-gap: 10px;
+}
+.client_img {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+.client_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.client_feedback {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.msg {
+  width: 225px;
+  color: rgba(33, 37, 41, 0.9);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  font-family: "Rajdhani", sans-serif;
+}
+.clientName {
+  color: #c1376c;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  font-family: "Rajdhani", sans-serif;
+}
+.designation {
+  color: #212529;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: "Rajdhani", sans-serif;
+}
+/* ===== Feedback Design End ===== */

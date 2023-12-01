@@ -1,6 +1,6 @@
 /* ==== Feedbacks Design Start ==== */
 .feedbacks {
-  padding: 84px 0;
+  padding-bottom: 84px;
 }
 .feedbacks_heading h3 {
   color: #071c1f;
@@ -9,5 +9,12 @@
   font-weight: 700;
   line-height: 140%;
   font-family: "Open Sans", sans-serif;
+}
+.feedback_list {
+  padding-top: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 82px;
 }
 /* ==== Feedbacks Design End ==== */

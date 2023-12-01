@@ -1,0 +1,14 @@
+/* ===== Video Design Start ===== */
+.video {
+  padding-bottom: 74px;
+}
+.video_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video_frame {
+  height: 600px;
+  width: 1170px;
+}
+/* ===== Video Design End ===== */
