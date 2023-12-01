@@ -1,0 +1,13 @@
+/* ==== Feedbacks Design Start ==== */
+.feedbacks {
+  padding: 84px 0;
+}
+.feedbacks_heading h3 {
+  color: #071c1f;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+}
+/* ==== Feedbacks Design End ==== */

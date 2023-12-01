@@ -3,6 +3,7 @@ import Header from "./sections/header/Header";
 import Navbar from "./sections/navbar/Navbar";
 import Offers from "./sections/offers/Offers";
 import Products from "./sections/products/Products";
+import Feedbacks from "./sections/feedbacks/Feedbacks";
 import "./index.css";
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Banner />
       <Offers />
       <Products />
+      {/* <Feedbacks /> */}
     </div>
   );
 };
