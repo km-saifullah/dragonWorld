@@ -1,0 +1,43 @@
+/* ===== Product Design Start ===== */
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.product_image {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+}
+.product_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.product_rating {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+  padding: 22px 0 12px 0;
+}
+.rating {
+  font-weight: 700;
+}
+.product_name {
+  color: #e71578;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+}
+.product_price {
+  color: #881a51;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+  padding-top: 12px;
+}
+/* ===== Product Design End ===== */

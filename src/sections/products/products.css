@@ -1,0 +1,21 @@
+/* ===== Products Design Start ===== */
+.products {
+  padding-bottom: 74px;
+}
+.products_heading h3 {
+  text-align: center;
+  color: #071c1f;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 85px;
+}
+.products_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 56px 80px;
+}
+/* ===== Products Design End ===== */
