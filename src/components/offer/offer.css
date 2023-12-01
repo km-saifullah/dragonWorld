@@ -1,0 +1,45 @@
+/* ==== Offer Design Start ==== */
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 56px;
+}
+.offer_img {
+  height: 200px;
+  width: 220px;
+  overflow: hidden;
+}
+.offer_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.offer_details {
+  width: 207px;
+}
+.offer_details p {
+  color: #212529;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 130%;
+  font-family: "Rajdhani", sans-serif;
+  padding-bottom: 8px;
+}
+.percent {
+  font-weight: 700;
+}
+.offer_details h6 {
+  color: #e71578;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  font-family: "Open Sans", sans-serif;
+}
+.fruit_offer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 55px;
+}
+/* ==== Offer Design End ==== */

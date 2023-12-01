@@ -1,0 +1,49 @@
+/* ===== Offers Design Start ===== */
+.offers {
+  padding: 74px 0;
+}
+.offers_wrapper,
+.dragon_juice,
+.fruit_offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offers_wrapper {
+  column-gap: 50px;
+}
+.dragon_juice {
+  column-gap: 45px;
+}
+.juice_heading {
+  width: 180px;
+  color: #212529;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 130%;
+  font-family: "Rajdhani", sans-serif;
+}
+.fruit_juice {
+  color: #071c1f;
+  font-weight: 600;
+}
+.juice_details {
+  width: 180px;
+  color: #071c1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  font-family: "Rajdhani", sans-serif;
+  padding: 8px 0;
+}
+.juice_img {
+  height: 450px;
+  width: 360px;
+  overflow: hidden;
+}
+.juice_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* ===== Offers Design End ===== */
