@@ -3,6 +3,7 @@ import Offer from "../../components/offer/Offer";
 import photo1 from "/fruit-1.jpeg";
 import photo2 from "/fruit-3.jpeg";
 import "./offers.css";
+import CommonBtn from "../../components/commonBtn/CommonBtn";
 
 const Offers = () => {
   return (
@@ -17,6 +18,7 @@ const Offers = () => {
               <p className="juice_details">
                 Best Juice Flavour You will Never Miss
               </p>
+              <CommonBtn title="Shop Now" />
             </div>
             <div className="juice_img">
               <img src="fruit-4.jpeg" alt="juice photo not found" />

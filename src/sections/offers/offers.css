@@ -11,6 +11,7 @@
 }
 .offers_wrapper {
   column-gap: 50px;
+  justify-content: space-evenly;
 }
 .dragon_juice {
   column-gap: 45px;
@@ -31,7 +32,7 @@
   width: 180px;
   color: #071c1f;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 130%;
   font-family: "Rajdhani", sans-serif;
   padding: 8px 0;
