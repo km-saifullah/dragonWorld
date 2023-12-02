@@ -1,17 +1,16 @@
-// import React from "react";
-// import "./service.css";
+import React from "react";
+import "./service.css";
 
-// const Service = ({ text, icon }) => {
-//   console.log({ text, icon });
-//   return (
-//     <div className="service">
-//       <div className="service_icon">{icon}</div>
-//       <div className="service_details">
-//         {/* <h4>{service}</h4> */}
-//         <p>{text}</p>
-//       </div>
-//     </div>
-//   );
-// };
+const Service = ({ service, text, serial }) => {
+  return (
+    <div className="service">
+      <div className="service_icon">{serial}</div>
+      <div className="service_details">
+        <h3>{service}</h3>
+        <p>{text}</p>
+      </div>
+    </div>
+  );
+};
 
-// export default Service;
+export default Service;

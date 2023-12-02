@@ -1,33 +1,27 @@
-import React from "react";
-import Ico from "../components/customIcons/Icon1";
-
-// import { MdOutlineAssignmentReturn } from "react-icons/md";
-// import { CiDeliveryTruck } from "react-icons/ci";
-// import { FaHandSparkles } from "react-icons/fa";
 const services = [
   {
     id: 1,
     service: "Organic Product",
     text: "Provide Organic Products for all product over 100 BDT",
-    // icon: <Ico />,
+    serial: "1",
   },
   {
     id: 2,
     service: "Handmade",
     text: "We ensure the product quality that is our main goal",
-    // icon: <Ico />,
+    serial: "2",
   },
   {
     id: 3,
     service: "Return Policy",
     text: "Return product within 3 days for any product you buy",
-    // icon: <Ico />,
+    serial: "3",
   },
   {
     id: 4,
     service: "Free Delivery",
     text: "We ensure the product quality that you can trust easily",
-    // icon: <Ico />,
+    serial: "4",
   },
 ];
 export default services;

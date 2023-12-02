@@ -1,0 +1,37 @@
+/* ===== Service Design Start ===== */
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.service_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 25px;
+  background: #e71578;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+}
+.service_details h3 {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 5px;
+}
+.service_details p {
+  width: 195px;
+  color: #212529;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 120%;
+  font-family: "Rajdhani", sans-serif;
+}
+/* ===== Service Design End ===== */
