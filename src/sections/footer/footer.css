@@ -1,0 +1,77 @@
+/* ===== Contact Design Start ===== */
+.footer {
+  padding: 0 0 55px 0;
+}
+.footer_wrapper {
+  display: flex;
+  column-gap: 98px;
+}
+.newsletter_title {
+  color: #071c1f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+  font-family: "Open Sans", sans-serif;
+}
+.newsletter_text {
+  width: 307px;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  padding: 24px 0 15px 0;
+  font-family: "Rajdhani", sans-serif;
+}
+.newsletter_form {
+  display: flex;
+}
+.newsletter_form input {
+  height: 45px;
+  width: 195px;
+  background: rgba(231, 21, 120, 0.7);
+  padding: 12px 0 12px 6px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 120%;
+  font-family: "Rajdhani", sans-serif;
+  border: none;
+  outline: none;
+}
+.newsletter_form input::placeholder {
+  color: #fff;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 50px;
+  border: 1px solid #071c1f;
+  background-color: #e71578;
+  cursor: pointer;
+}
+.send_icon {
+  color: #fff;
+  font-size: 25px;
+}
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+.payment h4 {
+  color: #071c1f;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  font-family: "Open Sans", sans-serif;
+  padding: 21px 0 15px 0;
+}
+.payment_methods {
+  display: flex;
+  column-gap: 28px;
+}
+.payment_icon {
+  height: 25px;
+  width: 30px;
+}
+/* ===== Contact Design End ===== */

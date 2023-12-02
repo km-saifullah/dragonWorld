@@ -7,6 +7,7 @@ import Feedbacks from "./sections/feedbacks/Feedbacks";
 import Video from "./sections/video/Video";
 import "./index.css";
 import Slime from "./sections/slime/Slime";
+import Footer from "./sections/footer/Footer";
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
       <Slime />
       <Feedbacks />
       <Video />
+      <Footer />
     </div>
   );
 };

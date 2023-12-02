@@ -1,0 +1,53 @@
+/* ====== Contact Design Start ====== */
+.conatct_logo {
+  display: flex;
+  align-items: center;
+}
+.conatct_logo img {
+  height: 64px;
+  width: 64px;
+}
+.conatct_logo h4 {
+  color: #071c1f;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 120%;
+  font-family: "Open Sans", sans-serif;
+}
+.logo_text {
+  color: #e71578;
+  font-size: 25px;
+}
+.contact_text {
+  width: 298px;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  font-family: "Rajdhani", sans-serif;
+  padding: 14px 0;
+}
+.contact_info {
+  display: flex;
+  flex-direction: column;
+}
+.details {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.contact_icon {
+  height: 25px;
+  width: 25px;
+  color: #e71578;
+}
+.details p,
+a {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: "Rajdhani", sans-serif;
+}
+/* ====== Contact Design End ====== */
