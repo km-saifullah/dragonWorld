@@ -1,0 +1,10 @@
+/* ===== Services Design Start ===== */
+.services {
+  padding-bottom: 130px;
+}
+.services_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ===== Services Design End ===== */

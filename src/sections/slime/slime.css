@@ -1,0 +1,79 @@
+/* ====== Dragon SLime Design Start ===== */
+.dragon_slime {
+  padding-bottom: 84px;
+}
+.slime_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+.slime_img {
+  height: 605px;
+  width: 430px;
+  overflow: hidden;
+}
+.slime_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slime_info {
+  display: flex;
+  flex-direction: column;
+}
+.deals {
+  color: #d90836;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+}
+.slime_title {
+  width: 478px;
+  color: #071c1f;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Open Sans", sans-serif;
+  padding: 4px 0 42px 0;
+}
+.slime_time {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+.slime_time div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 71px;
+  width: 113px;
+  background-color: #c1376c;
+  padding: 16px 30px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+}
+.slime_timeline {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+.slime_timeline p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 71px;
+  width: 113px;
+  color: #212529;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: "Rajdhani", sans-serif;
+}
+/* ====== Dragon SLime Design End ===== */

@@ -6,6 +6,7 @@ import Products from "./sections/products/Products";
 import Feedbacks from "./sections/feedbacks/Feedbacks";
 import Video from "./sections/video/Video";
 import "./index.css";
+import Slime from "./sections/slime/Slime";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
       <Banner />
       <Offers />
       <Products />
+      <Slime />
       <Feedbacks />
       <Video />
     </div>
