@@ -1,0 +1,28 @@
+/* ===== Copyright Design Start ====== */
+.copyright {
+  background-color: #212529;
+  padding: 54px 0;
+}
+.copyright_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright_list {
+  display: flex;
+  align-items: center;
+  column-gap: 21px;
+}
+.copyright_list li a,
+.copyright_text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: "Open Sans", sans-serif;
+  transition: all linear 0.3s;
+}
+.copyright_list li a:hover {
+  color: #e71578;
+}
+/* ===== Copyright Design End ====== */
