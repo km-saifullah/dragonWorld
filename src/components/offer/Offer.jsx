@@ -2,6 +2,7 @@ import React from "react";
 import "./offer.css";
 
 const Offer = ({ photo, percentage, title, offtitle }) => {
+  let value = 1;
   return (
     <div className="offer">
       <div className="offer_img">

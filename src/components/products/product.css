@@ -13,6 +13,10 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: all linear 0.3s;
+}
+.product_image img:hover {
+  transform: scale(1.1);
 }
 .product_rating {
   color: #212529;
