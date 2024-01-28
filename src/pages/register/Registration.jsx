@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useFormik } from "formik";
+import Validation from "../../validation/Validation";
 import "./registration.css";
 
 const Registration = () => {
@@ -8,6 +10,15 @@ const Registration = () => {
     email: "",
     password: "",
     confirmPassword: "",
+  });
+  const formik = useFormik({
+    initialValues: registerData,
+    validationSchema: Validation,
+    onSubmit: (values, actions) => {
+      console.log(values);
+      setRegisterData(values);
+      console.log("Registerd Data:", registerData);
+    },
   });
   // handle form input fields
   const handleFormData = (e) => {
@@ -33,42 +44,58 @@ const Registration = () => {
             </p>
           </div>
           <div>
-            <form className="register_form" onSubmit={handleAccount}>
+            <form className="register_form" onSubmit={formik.handleSubmit}>
               <input
                 type="text"
                 name="firstName"
-                value={registerData.firstName}
                 placeholder="First Name"
-                onChange={handleFormData}
+                onChange={formik.handleChange}
+                value={formik.values.firstName}
               />
+              {formik.touched.firstName && formik.errors.firstName ? (
+                <div>{formik.errors.firstName}</div>
+              ) : null}
               <input
                 type="text"
                 name="lastName"
-                value={registerData.lastName}
                 placeholder="Last Name"
-                onChange={handleFormData}
+                onChange={formik.handleChange}
+                value={formik.values.lastName}
               />
+              {formik.touched.lastName && formik.errors.lastName ? (
+                <div>{formik.errors.lastName}</div>
+              ) : null}
               <input
                 type="email"
                 name="email"
-                value={registerData.email}
                 placeholder="Email"
-                onChange={handleFormData}
+                onChange={formik.handleChange}
+                value={formik.values.email}
               />
+              {formik.touched.email && formik.errors.email ? (
+                <div>{formik.errors.email}</div>
+              ) : null}
               <input
                 type="password"
                 name="password"
-                value={registerData.password}
                 placeholder="Password"
-                onChange={handleFormData}
+                onChange={formik.handleChange}
+                value={formik.values.password}
               />
+              {formik.touched.password && formik.errors.password ? (
+                <div>{formik.errors.password}</div>
+              ) : null}
               <input
                 type="password"
                 name="confirmPassword"
-                value={registerData.confirmPassword}
                 placeholder="Confirm Password"
-                onChange={handleFormData}
+                onChange={formik.handleChange}
+                value={formik.values.confirmPassword}
               />
+              {formik.touched.confirmPassword &&
+              formik.errors.confirmPassword ? (
+                <div>{formik.errors.confirmPassword}</div>
+              ) : null}
               <button className="common_btn" type="submit">
                 Create Account
               </button>
