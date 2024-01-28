@@ -1,0 +1,52 @@
+/* ===== Registration Page Design Start ====== */
+.registration {
+  padding-top: 0px;
+  padding-bottom: 45px;
+}
+.register_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.register_heading {
+  text-align: center;
+}
+.register_heading h2 {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: var(--priamry);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 140%;
+  font-family: var(--rajshani);
+}
+.register_heading p {
+  margin: 0 auto;
+  width: 420px;
+  padding-bottom: 20px;
+  color: var(--textColor);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: var(--openSans);
+}
+.register_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.register_form input {
+  padding: 10px 40px 10px 15px;
+  width: 400px;
+  border: 1px solid var(--secondary);
+  outline: none;
+  color: var(--priamry);
+  font-size: 16px;
+  font-family: var(--openSans);
+}
+/* ===== Registration Page Design End ====== */

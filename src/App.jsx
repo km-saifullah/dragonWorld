@@ -11,6 +11,7 @@ import Shop from "./pages/shop/Shop";
 import Offers from "./pages/offers/Offers";
 import Contact from "./pages/contact/Contact";
 import NotFound from "./pages/notfound/NotFound";
+import Registration from "./pages/register/Registration";
 import "./index.css";
 
 const router = createBrowserRouter(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
         <Route path="/shop" element={<Shop />} />
         <Route path="/offers" element={<Offers />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Registration />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </>
