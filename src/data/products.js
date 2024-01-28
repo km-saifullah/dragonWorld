@@ -64,6 +64,5 @@ const products = [
       "https://raw.githubusercontent.com/km-saifullah/dragonWorld/main/public/product-8.jpeg",
   },
 ];
-console.log(products.length);
 
 export default products;

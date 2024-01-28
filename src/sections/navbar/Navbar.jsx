@@ -2,6 +2,7 @@ import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import { LuUser2 } from "react-icons/lu";
 import { PiShoppingCart } from "react-icons/pi";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -18,21 +19,19 @@ const Navbar = () => {
           <div className="menu">
             <ul>
               <li>
-                <a className="active" href="#">
-                  Home
-                </a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a href="#">about</a>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <a href="#">shop</a>
+                <NavLink to="/shop">Shop</NavLink>
               </li>
               <li>
-                <a href="#">offers</a>
+                <NavLink to="/offers">Offers</NavLink>
               </li>
               <li>
-                <a href="#">contact</a>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </div>

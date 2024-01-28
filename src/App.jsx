@@ -1,33 +1,35 @@
-// Different Sections
-import Banner from "./sections/banner/Banner";
-import Header from "./sections/header/Header";
-import Navbar from "./sections/navbar/Navbar";
-import Offers from "./sections/offers/Offers";
-import Products from "./sections/products/Products";
-import Feedbacks from "./sections/feedbacks/Feedbacks";
-import Video from "./sections/video/Video";
-import Slime from "./sections/slime/Slime";
-import Footer from "./sections/footer/Footer";
-import Copyright from "./sections/copyrights/Copyright";
-import Services from "./sections/services/Services";
+import Home from "./pages/home/Home";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createRoutesFromElements,
+  Route,
+} from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
+import About from "./pages/about/About";
+import Shop from "./pages/shop/Shop";
+import Offers from "./pages/offers/Offers";
+import Contact from "./pages/contact/Contact";
+import NotFound from "./pages/notfound/NotFound";
 import "./index.css";
 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/offers" element={<Offers />} />
+        <Route path="/contact" element={<Contact />} />
+      </Route>
+      <Route path="*" element={<NotFound />} />
+    </>
+  )
+);
+
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Navbar />
-      <Banner />
-      <Offers />
-      <Products />
-      <Slime />
-      <Feedbacks />
-      <Video />
-      <Services />
-      <Footer />
-      <Copyright />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
