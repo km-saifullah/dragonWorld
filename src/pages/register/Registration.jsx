@@ -53,7 +53,7 @@ const Registration = () => {
                 value={formik.values.firstName}
               />
               {formik.touched.firstName && formik.errors.firstName ? (
-                <div>{formik.errors.firstName}</div>
+                <div className="error">{formik.errors.firstName}</div>
               ) : null}
               <input
                 type="text"
@@ -63,7 +63,7 @@ const Registration = () => {
                 value={formik.values.lastName}
               />
               {formik.touched.lastName && formik.errors.lastName ? (
-                <div>{formik.errors.lastName}</div>
+                <div className="error">{formik.errors.lastName}</div>
               ) : null}
               <input
                 type="email"
@@ -73,7 +73,7 @@ const Registration = () => {
                 value={formik.values.email}
               />
               {formik.touched.email && formik.errors.email ? (
-                <div>{formik.errors.email}</div>
+                <div className="error">{formik.errors.email}</div>
               ) : null}
               <input
                 type="password"
@@ -83,7 +83,7 @@ const Registration = () => {
                 value={formik.values.password}
               />
               {formik.touched.password && formik.errors.password ? (
-                <div>{formik.errors.password}</div>
+                <div className="error">{formik.errors.password}</div>
               ) : null}
               <input
                 type="password"
@@ -94,7 +94,7 @@ const Registration = () => {
               />
               {formik.touched.confirmPassword &&
               formik.errors.confirmPassword ? (
-                <div>{formik.errors.confirmPassword}</div>
+                <div className="error">{formik.errors.confirmPassword}</div>
               ) : null}
               <button className="common_btn" type="submit">
                 Create Account

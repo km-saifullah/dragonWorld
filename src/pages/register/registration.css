@@ -20,7 +20,7 @@
   font-size: 48px;
   font-weight: 800;
   line-height: 140%;
-  font-family: var(--rajshani);
+  font-family: var(--rajdhani);
 }
 .register_heading p {
   margin: 0 auto;
@@ -48,5 +48,15 @@
   color: var(--priamry);
   font-size: 16px;
   font-family: var(--openSans);
+}
+.error {
+  width: 400px;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  font-family: var(--openSans);
+  padding: 8px;
 }
 /* ===== Registration Page Design End ====== */
